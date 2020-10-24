@@ -1,0 +1,139 @@
+.mainbg{background-image:url(https://images.unsplash.com/photo-1493807742375-fbc46d996e8f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f0038573a81b1169576b6674a3ce202&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb);
+    height: auto !important;
+  background-attachment: fixed;
+  text-align: center;
+}
+.mainpanel {
+    background: #1f1e1ebd;
+    color: #FFF;
+    padding: 20px;
+    max-width: 890px;
+    margin: auto;
+}
+.logout{
+    right: 20px;
+    top: 20px;
+    position: fixed;
+}
+
+.navig{
+    display: inline-block;
+  background: #48b7da;
+  color: #FFF;
+  padding: 10px 12px;
+  border: solid #000 1px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: pointer;
+}
+
+.orderpanel{
+    display: none;
+}
+
+.panels {
+    border: solid 1px;
+    padding: 10px;
+}
+
+.panels table td{
+
+    border: solid 1px;
+}
+.panels table th{
+    font-weight: bold;
+    background: #888888;
+    color: #FFF;
+}
+
+#myTable, #inputtable{
+    display: inline-block;
+    vertical-align: top
+}
+
+#myTable {
+    width: 69%;
+}
+#inputtable {
+    width: 30%;
+}
+
+.editlink, .deletelink{
+    text-decoration: underline;
+    color: #48b7da;
+    cursor: pointer;
+}
+.inputclass {
+    width: 100%;
+    height: 30px;
+    border: solid 1px;
+    padding: 7px;
+}
+.foodpanel {
+    margin: 5px;
+  border: solid 1px;
+  display: inline-block;
+  vertical-align: top;
+  width: 18%;
+  height: 380px;
+}
+
+.foodtitle {
+    font-size: 12px;
+    font-weight: bold;
+    background: #2ab1b9;
+    color: #FFF;
+    padding: 10px 24px;
+}
+.productlists {
+    font-size: 13px;
+    font-family: arial;
+    padding: 6px 15px;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+.active{
+    color: #FFF;
+    background: #4f7b34;
+}
+
+.Title {
+    text-align: center;
+    font-size: 30px;
+    font-family: Tahoma,arial;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 17px;
+    font-family: Tahoma;
+}
+
+.subsubtitle {
+    text-align: center;
+    font-size: 9px;
+    margin-top: 5px;
+    font-family: Tahoma;
+    color: #de0505;
+}
+.inputpanel {
+    display: inline-block;
+    font-size: 12px;
+    font-family: Arial;
+    margin: 30px 0px;
+}
+
+.submitbutton {
+    height: 30px;
+    background: #FFF;
+    border-radius: 3px;
+    border: solid 1px;
+    cursor: pointer;
+}
+
+.Orderprompt {
+    font-size: 16px;
+    color: #cc0f0f;
+    font-family: Arial;
+}
